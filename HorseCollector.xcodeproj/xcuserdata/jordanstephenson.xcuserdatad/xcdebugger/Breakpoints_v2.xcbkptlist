@@ -243,11 +243,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HorseCollector/HorseViewController.swift"
-            timestampString = "517864188.193584"
+            timestampString = "517864877.297778"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "addTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>

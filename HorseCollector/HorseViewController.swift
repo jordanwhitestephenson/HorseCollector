@@ -42,6 +42,7 @@ class HorseViewController: UIViewController, UIImagePickerControllerDelegate, UI
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
+ 
     @IBAction func cameraTapped(_ sender: Any) {
     }
     @IBAction func photosTapped(_ sender: Any) {
@@ -65,6 +66,13 @@ class HorseViewController: UIViewController, UIImagePickerControllerDelegate, UI
             horse.image = UIImagePNGRepresentation(horseImageView.image!) as! NSData
             deleteButton.isHidden = true
         }
+    }
+    @IBAction func deleteActionButton(_ sender: Any) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        context.delete(horse!)
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController!.popViewController(animated: true)
+
     }
 
 
