@@ -16,11 +16,18 @@ class HorseViewController: UIViewController, UIImagePickerControllerDelegate, UI
     @IBOutlet weak var horseTextField: UITextField!
     
     var imagePicker = UIImagePickerController()
+    var horse : Horse? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
-       
+        if horse != nil {
+            horseImageView.image = UIImage(data: horse!.image as! Data)
+            horseTextField.text = horse!.title
+        }
+        else {
+            print("we have no game")
+        }
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage

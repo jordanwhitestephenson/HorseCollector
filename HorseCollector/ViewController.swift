@@ -48,6 +48,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.imageView?.image = UIImage(data: horse.image as! Data)
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+          let horse = horses[indexPath.row]
+        performSegue(withIdentifier: "horseSegue", sender: horse)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! HorseViewController
+        nextVC.horse = sender as? Horse
+    }
 
 }
 

@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" id="Ti1-Cl-OES">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="uYX-eY-IDM">
                             <connections>
-                                <segue destination="Pjq-vf-69D" kind="show" id="ulW-XS-E0F"/>
+                                <segue destination="Pjq-vf-69D" kind="show" identifier="horseSegue" id="ulW-XS-E0F"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
