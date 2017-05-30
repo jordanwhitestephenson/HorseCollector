@@ -75,12 +75,17 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tv4-Yz-CEg">
-                                <rect key="frame" x="171" y="364" width="32" height="30"/>
+                                <rect key="frame" x="119" y="369" width="137" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ADD"/>
                                 <connections>
                                     <action selector="addTapped:" destination="Pjq-vf-69D" eventType="touchUpInside" id="fJz-Xr-fFr"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ap-p6-kqw">
+                                <rect key="frame" x="133" y="407" width="99" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Delete"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -100,6 +105,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="addUpdateButton" destination="Tv4-Yz-CEg" id="K5H-an-6ia"/>
+                        <outlet property="deleteButton" destination="9Ap-p6-kqw" id="sd4-At-ifX"/>
                         <outlet property="horseImageView" destination="Tq3-ty-51d" id="yL0-1r-jgU"/>
                         <outlet property="horseTextField" destination="Kvy-3C-CX0" id="k8w-u3-QOx"/>
                     </connections>

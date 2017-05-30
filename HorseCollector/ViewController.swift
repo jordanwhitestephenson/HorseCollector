@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = UITableViewCell()
         let horse = horses[indexPath.row]
         cell.textLabel?.text = horse.title
-        cell.imageView?.image = UIImage(data: horse.image as! Data)
+        cell.imageView?.image = UIImage(data: horse.image!as Data)
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
