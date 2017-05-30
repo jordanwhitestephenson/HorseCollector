@@ -35,6 +35,12 @@ class HorseViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
 
     @IBAction func addTapped(_ sender: Any) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let horse = Horse(context: context)
+        horse.title = horseTextField.text
+        horse.image = UIImagePNGRepresentation(horseImageView.image!) as! NSData
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
     }
 
 
