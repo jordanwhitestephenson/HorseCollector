@@ -20,6 +20,7 @@ class HorseViewController: UIViewController, UIImagePickerControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+       
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
@@ -41,6 +42,7 @@ class HorseViewController: UIViewController, UIImagePickerControllerDelegate, UI
         horse.title = horseTextField.text
         horse.image = UIImagePNGRepresentation(horseImageView.image!) as! NSData
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController!.popViewController(animated: true)
     }
 
 

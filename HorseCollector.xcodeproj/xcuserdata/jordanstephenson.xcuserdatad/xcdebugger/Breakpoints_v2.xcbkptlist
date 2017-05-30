@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HorseCollector/HorseViewController.swift"
-            timestampString = "517855552.550982"
+            timestampString = "517860961.088714"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,13 +26,104 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HorseCollector/HorseViewController.swift"
-            timestampString = "517858624.36183"
+            timestampString = "517860961.088714"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "addTapped(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HorseCollector/ViewController.swift"
+            timestampString = "517859505.027014"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3"
+            endingLineNumber = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseCollector.ViewController.__deallocating_deinit"
+                  moduleName = "HorseCollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordanstephenson/Desktop/HorseCollector/HorseCollector/ViewController.swift"
+                  timestampString = "517859701.28895"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseCollector.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; HorseCollector.ViewController"
+                  moduleName = "HorseCollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordanstephenson/Desktop/HorseCollector/HorseCollector/ViewController.swift"
+                  timestampString = "517859701.295197"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseCollector.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; HorseCollector.ViewController"
+                  moduleName = "HorseCollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordanstephenson/Desktop/HorseCollector/HorseCollector/ViewController.swift"
+                  timestampString = "517859701.298191"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseCollector.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;HorseCollector.ViewController&gt;"
+                  moduleName = "HorseCollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordanstephenson/Desktop/HorseCollector/HorseCollector/ViewController.swift"
+                  timestampString = "517859701.300998"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HorseCollector.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;HorseCollector.ViewController&gt;"
+                  moduleName = "HorseCollector"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jordanstephenson/Desktop/HorseCollector/HorseCollector/ViewController.swift"
+                  timestampString = "517859701.307364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
